@@ -3,7 +3,7 @@ import SeoJsonLd from "@/components/SeoJsonLd";
 import ExporterContent from "./ExporterContent";
 
 export const metadata: Metadata = {
-  title: "Paper Tableware Exporter India — Sejara Industries",
+  title: "Paper Tableware Exporter India — Kraftino Paper Industries",
   description:
     "Exporting biodegradable paper plates, cups & spoons to 30+ countries. FDA, EU & FSC certified. Competitive FOB/CIF pricing from New Delhi, India.",
   keywords: [
@@ -19,22 +19,22 @@ export const metadata: Metadata = {
     "sustainable packaging global supplier",
   ],
   openGraph: {
-    title: "Paper Tableware Exporter India — Sejara Industries",
+    title: "Paper Tableware Exporter India — Kraftino Paper Industries",
     description:
       "Exporting biodegradable paper plates, cups & spoons to 30+ countries. FDA, EU & FSC certified. Competitive FOB/CIF pricing from India.",
-    url: "https://sejaraindustries.com/exporter",
-    siteName: "Sejara Industries",
+    url: "https://kraftino.org/exporter",
+    siteName: "Kraftino Paper Industries",
     type: "website",
     locale: "en_IN",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Paper Tableware Exporter India — Sejara Industries",
+    title: "Paper Tableware Exporter India — Kraftino Paper Industries",
     description:
       "Exporting biodegradable paper plates, cups & spoons to 30+ countries. FDA, EU & FSC certified.",
   },
   alternates: {
-    canonical: "https://sejaraindustries.com/exporter",
+    canonical: "https://kraftino.org/exporter",
   },
 };
 
@@ -43,8 +43,8 @@ export default function ExporterPage() {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://sejaraindustries.com" },
-      { "@type": "ListItem", position: 2, name: "Exporter", item: "https://sejaraindustries.com/exporter" },
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://kraftino.org" },
+      { "@type": "ListItem", position: 2, name: "Exporter", item: "https://kraftino.org/exporter" },
     ],
   };
 

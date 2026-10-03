@@ -3,7 +3,7 @@ import SeoJsonLd from "@/components/SeoJsonLd";
 import TraderContent from "./TraderContent";
 
 export const metadata: Metadata = {
-  title: "Paper Pulp & Raw Material Trader — Sejara Industries",
+  title: "Paper Pulp & Raw Material Trader — Kraftino Paper Industries",
   description:
     "Trading premium FSC-certified paper pulp, bio-based coatings & plant-derived inks. Trusted global supply network for sustainable packaging materials in New Delhi, India.",
   keywords: [
@@ -19,22 +19,22 @@ export const metadata: Metadata = {
     "eco-friendly packaging input New Delhi",
   ],
   openGraph: {
-    title: "Paper Pulp & Raw Material Trader — Sejara Industries",
+    title: "Paper Pulp & Raw Material Trader — Kraftino Paper Industries",
     description:
       "Trading premium FSC-certified paper pulp, bio-based coatings & plant-derived inks. Trusted global supply network.",
-    url: "https://sejaraindustries.com/trader",
-    siteName: "Sejara Industries",
+    url: "https://kraftino.org/trader",
+    siteName: "Kraftino Paper Industries",
     type: "website",
     locale: "en_IN",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Paper Pulp & Raw Material Trader — Sejara Industries",
+    title: "Paper Pulp & Raw Material Trader — Kraftino Paper Industries",
     description:
       "Trading premium FSC-certified paper pulp, bio-based coatings & plant-derived inks.",
   },
   alternates: {
-    canonical: "https://sejaraindustries.com/trader",
+    canonical: "https://kraftino.org/trader",
   },
 };
 
@@ -43,8 +43,8 @@ export default function TraderPage() {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://sejaraindustries.com" },
-      { "@type": "ListItem", position: 2, name: "Trader", item: "https://sejaraindustries.com/trader" },
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://kraftino.org" },
+      { "@type": "ListItem", position: 2, name: "Trader", item: "https://kraftino.org/trader" },
     ],
   };
 

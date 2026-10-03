@@ -47,7 +47,7 @@ export default function ContactSection() {
             </p>
             <div className="space-y-6">
               {[
-                { l: "Email", v: "sales@sejaraindustries.com" },
+                { l: "Email", v: "info@kraftino.org" },
                 { l: "Phone", v: "+91 95608 71839" },
                 {
                   l: "Address",

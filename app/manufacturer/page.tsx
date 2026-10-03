@@ -3,7 +3,7 @@ import SeoJsonLd from "@/components/SeoJsonLd";
 import ManufacturerContent from "./ManufacturerContent";
 
 export const metadata: Metadata = {
-  title: "Paper Tableware Manufacturer India — Sejara Industries",
+  title: "Paper Tableware Manufacturer India — Kraftino Paper Industries",
   description:
     "FSC-certified paper plate, cup & spoon manufacturing in New Delhi, India. 500M+ units/year capacity. Custom sizes, private labeling, bulk orders. FDA & EU compliant.",
   keywords: [
@@ -19,22 +19,22 @@ export const metadata: Metadata = {
     "biodegradable packaging manufacturer New Delhi",
   ],
   openGraph: {
-    title: "Paper Tableware Manufacturer India — Sejara Industries",
+    title: "Paper Tableware Manufacturer India — Kraftino Paper Industries",
     description:
       "FSC-certified paper plate, cup & spoon manufacturing in New Delhi, India. 500M+ units/year capacity. Custom sizes, private labeling, bulk orders.",
-    url: "https://sejaraindustries.com/manufacturer",
-    siteName: "Sejara Industries",
+    url: "https://kraftino.org/manufacturer",
+    siteName: "Kraftino Paper Industries",
     type: "website",
     locale: "en_IN",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Paper Tableware Manufacturer India — Sejara Industries",
+    title: "Paper Tableware Manufacturer India — Kraftino Paper Industries",
     description:
       "FSC-certified paper plate, cup & spoon manufacturing in New Delhi, India. 500M+ units/year capacity.",
   },
   alternates: {
-    canonical: "https://sejaraindustries.com/manufacturer",
+    canonical: "https://kraftino.org/manufacturer",
   },
 };
 
@@ -48,8 +48,8 @@ export default function ManufacturerPage() {
         "@type": "Product",
         name: "Paper Plates",
         description: "Round, square & compartmentalized paper plates. Grease-resistant, fully compostable.",
-        brand: { "@type": "Brand", name: "Sejara Industries" },
-        manufacturer: { "@type": "Organization", name: "Sejara Industries" },
+        brand: { "@type": "Brand", name: "Kraftino Paper Industries" },
+        manufacturer: { "@type": "Organization", name: "Kraftino Paper Industries" },
         offers: {
           "@type": "Offer",
           availability: "https://schema.org/InStock",
@@ -60,8 +60,8 @@ export default function ManufacturerPage() {
         "@type": "Product",
         name: "Paper Cups",
         description: "Hot & cold variants. Double-wall insulated, leak-proof, custom printable.",
-        brand: { "@type": "Brand", name: "Sejara Industries" },
-        manufacturer: { "@type": "Organization", name: "Sejara Industries" },
+        brand: { "@type": "Brand", name: "Kraftino Paper Industries" },
+        manufacturer: { "@type": "Organization", name: "Kraftino Paper Industries" },
         offers: {
           "@type": "Offer",
           availability: "https://schema.org/InStock",
@@ -72,8 +72,8 @@ export default function ManufacturerPage() {
         "@type": "Product",
         name: "Paper Spoons",
         description: "High-density pressed pulp. Bend-resistant, taste-neutral, industrial compostable.",
-        brand: { "@type": "Brand", name: "Sejara Industries" },
-        manufacturer: { "@type": "Organization", name: "Sejara Industries" },
+        brand: { "@type": "Brand", name: "Kraftino Paper Industries" },
+        manufacturer: { "@type": "Organization", name: "Kraftino Paper Industries" },
         offers: {
           "@type": "Offer",
           availability: "https://schema.org/InStock",
@@ -87,8 +87,8 @@ export default function ManufacturerPage() {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://sejaraindustries.com" },
-      { "@type": "ListItem", position: 2, name: "Manufacturer", item: "https://sejaraindustries.com/manufacturer" },
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://kraftino.org" },
+      { "@type": "ListItem", position: 2, name: "Manufacturer", item: "https://kraftino.org/manufacturer" },
     ],
   };
 

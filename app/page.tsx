@@ -3,7 +3,7 @@ import SeoJsonLd from "@/components/SeoJsonLd";
 import HomeContent from "./home/HomeContent";
 
 export const metadata: Metadata = {
-  title: "Sejara Industries — Paper Plate, Cup & Spoon Manufacturer India",
+  title: "Kraftino Paper Industries — Paper Plate, Cup & Spoon Manufacturer India",
   description:
     "Leading manufacturer, exporter & trader of biodegradable paper plates, cups, and spoons in New Delhi, India. Eco-friendly disposable tableware for global markets. FSC certified, FDA approved.",
   keywords: [
@@ -19,22 +19,22 @@ export const metadata: Metadata = {
     "bulk paper plates supplier India",
   ],
   openGraph: {
-    title: "Sejara Industries — Paper Plate, Cup & Spoon Manufacturer India",
+    title: "Kraftino Paper Industries — Paper Plate, Cup & Spoon Manufacturer India",
     description:
       "Leading manufacturer, exporter & trader of biodegradable paper plates, cups, and spoons in New Delhi, India. Eco-friendly disposable tableware for global markets.",
-    url: "https://sejaraindustries.com",
-    siteName: "Sejara Industries",
+    url: "https://kraftino.org",
+    siteName: "Kraftino Paper Industries",
     type: "website",
     locale: "en_IN",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Sejara Industries — Paper Plate, Cup & Spoon Manufacturer India",
+    title: "Kraftino Paper Industries — Paper Plate, Cup & Spoon Manufacturer India",
     description:
       "Leading manufacturer, exporter & trader of biodegradable paper plates, cups, and spoons in New Delhi, India.",
   },
   alternates: {
-    canonical: "https://sejaraindustries.com",
+    canonical: "https://kraftino.org",
   },
 };
 
@@ -42,9 +42,9 @@ export default function HomePage() {
   const orgSchema = {
     "@context": "https://schema.org",
     "@type": "Organization",
-    name: "Sejara Industries",
-    url: "https://sejaraindustries.com",
-    logo: "https://sejaraindustries.com/images/sejara.png",
+    name: "Kraftino Paper Industries",
+    url: "https://kraftino.org",
+    logo: "https://kraftino.org/images/kraftino-logo.png",
     description:
       "Leading manufacturer, exporter & trader of biodegradable paper plates, cups, and spoons in New Delhi, India.",
     address: {
@@ -59,7 +59,7 @@ export default function HomePage() {
       "@type": "ContactPoint",
       telephone: "+91-95608-71839",
       contactType: "sales",
-      email: "sales@sejaraindustries.com",
+      email: "info@kraftino.org",
     },
     sameAs: [],
     foundingDate: "2012",
@@ -72,11 +72,11 @@ export default function HomePage() {
   const websiteSchema = {
     "@context": "https://schema.org",
     "@type": "WebSite",
-    name: "Sejara Industries",
-    url: "https://sejaraindustries.com",
+    name: "Kraftino Paper Industries",
+    url: "https://kraftino.org",
     potentialAction: {
       "@type": "SearchAction",
-      target: "https://sejaraindustries.com/search?q={search_term_string}",
+      target: "https://kraftino.org/search?q={search_term_string}",
       "query-input": "required name=search_term_string",
     },
   };
@@ -89,7 +89,7 @@ export default function HomePage() {
         "@type": "ListItem",
         position: 1,
         name: "Home",
-        item: "https://sejaraindustries.com",
+        item: "https://kraftino.org",
       },
     ],
   };

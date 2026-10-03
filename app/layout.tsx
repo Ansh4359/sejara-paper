@@ -27,10 +27,10 @@ const dmMono = DM_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://sejaraindustries.com"),
+  metadataBase: new URL("https://kraftino.org"),
   title: {
-    default: "Sejara Industries — Paper Plate, Cup & Spoon Manufacturer India",
-    template: "%s | Sejara Industries",
+    default: "Kraftino Paper Industries — Paper Plate, Cup & Spoon Manufacturer India",
+    template: "%s | Kraftino Paper Industries",
   },
   description:
     "Leading manufacturer, exporter & trader of biodegradable paper plates, cups, and spoons in New Delhi, India. Eco-friendly disposable tableware for global markets. FSC certified, FDA approved.",
@@ -44,20 +44,20 @@ export const metadata: Metadata = {
     "paper tableware exporter India",
     "sustainable packaging company New Delhi",
   ],
-  authors: [{ name: "Sejara Industries" }],
-  creator: "Sejara Industries",
+  authors: [{ name: "Kraftino Paper Industries" }],
+  creator: "Kraftino Paper Industries",
   openGraph: {
     type: "website",
     locale: "en_IN",
-    url: "https://sejaraindustries.com",
-    siteName: "Sejara Industries",
-    title: "Sejara Industries — Paper Plate, Cup & Spoon Manufacturer India",
+    url: "https://kraftino.org",
+    siteName: "Kraftino Paper Industries",
+    title: "Kraftino Paper Industries — Paper Plate, Cup & Spoon Manufacturer India",
     description:
       "Leading manufacturer, exporter & trader of biodegradable paper plates, cups, and spoons in New Delhi, India. Eco-friendly disposable tableware for global markets.",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Sejara Industries — Eco-Friendly Paper Tableware India",
+    title: "Kraftino Paper Industries — Eco-Friendly Paper Tableware India",
     description:
       "Leading manufacturer, exporter & trader of biodegradable paper plates, cups, and spoons in New Delhi, India.",
   },

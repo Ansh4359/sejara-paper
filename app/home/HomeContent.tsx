@@ -107,7 +107,7 @@ export default function HomeContent() {
   return (
     <div className="page-enter">
       <SeoHiddenText>
-        Sejara Industries is a leading paper plate manufacturer in India, based in Narela,
+        Kraftino Paper Industries is a leading paper plate manufacturer in India, based in Narela,
         New Delhi. We specialize in eco-friendly disposable tableware including paper plates,
         paper cups, and paper spoons. As a trusted paper tableware exporter, we supply
         biodegradable packaging to over 30 countries. Our compostable products are FSC
@@ -123,7 +123,7 @@ export default function HomeContent() {
         <div className="absolute inset-0 green-mesh" />
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 pointer-events-none select-none">
           <span className="font-display text-[10rem] lg:text-[16rem] font-light text-leaf-200/20 leading-none whitespace-nowrap">
-            Sejara
+            Kraftino
           </span>
         </div>
         <div className="relative z-10 max-w-7xl mx-auto px-6 lg:px-12 pt-28 pb-24 w-full">
@@ -141,7 +141,7 @@ export default function HomeContent() {
                   for earth.
                 </h1>
                 <p className="font-body text-base lg:text-lg text-leaf-800/50 max-w-xl leading-relaxed mb-9 anim-fade-up d2">
-                  Sejara Industries manufactures, exports, and trades sustainable disposable
+                  Kraftino Paper Industries manufactures, exports, and trades sustainable disposable
                   plates, cups, and spoons — because every meal deserves a planet-conscious
                   choice.
                 </p>
@@ -378,7 +378,7 @@ export default function HomeContent() {
                 }`}
               >
                 Founded with a vision to replace single-use plastics with nature&apos;s own solutions,
-                Sejara Industries has grown from a small workshop into a trusted global supplier of
+                Kraftino Paper Industries has grown from a small workshop into a trusted global supplier of
                 biodegradable paper tableware.
               </p>
               <p

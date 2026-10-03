@@ -8,6 +8,6 @@ export default function robots(): MetadataRoute.Robots {
         allow: "/",
       },
     ],
-    sitemap: "https://sejaraindustries.com/sitemap.xml",
+    sitemap: "https://kraftino.org/sitemap.xml",
   };
 }

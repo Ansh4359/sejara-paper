@@ -11,8 +11,8 @@ export default function Footer() {
           <div>
             <div className="mb-5">
               <Image
-                src="/images/sejara.png"
-                alt="Sejara Industries"
+                src="/images/kraftino-logo.png"
+                alt="Kraftino Paper Industries"
                 width={280}
                 height={78}
                 className="h-20 w-auto brightness-0 invert"
@@ -79,7 +79,7 @@ export default function Footer() {
         </div>
         <div className="border-t border-white/[0.06] pt-6 flex flex-col sm:flex-row justify-between items-center gap-4">
           <span className="font-mono text-[11px] text-white/25">
-            &copy; 2026 Sejara Industries. All rights reserved.
+            &copy; 2026 Kraftino Paper Industries. All rights reserved.
           </span>
           <span className="font-mono text-[11px] text-white/25 flex items-center gap-1.5">
             <Leaf size={12} className="text-white/25" />

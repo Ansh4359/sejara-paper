@@ -35,8 +35,8 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-6 lg:px-12 flex items-center justify-between h-16 lg:h-20">
         <Link href="/" className="group">
           <Image
-            src="/images/sejara.png"
-            alt="Sejara Industries"
+            src="/images/kraftino-logo.png"
+            alt="Kraftino Paper Industries"
             width={200}
             height={56}
             className="h-14 w-auto"
